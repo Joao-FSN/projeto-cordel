@@ -3,9 +3,22 @@
     padding: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+:root{
+   --font1: Verdana, Geneva, Tahoma, sans-serif;
+   --font2:'Kdam Thmor Pro', sans-serif;
+   --font3:'Passions Conflict', cursive;;
+}
+
 html, body{
     min-height:100vh;
     background-color:darkgray;
+    font-family: var(--font1);
 }
 
 header{
@@ -17,6 +30,8 @@ header{
 header>h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
+    font-size:3em;
 }
 
 header>p{
@@ -39,6 +54,8 @@ section{
     padding-bottom: 5%;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 1.5em;
 }
 
 
